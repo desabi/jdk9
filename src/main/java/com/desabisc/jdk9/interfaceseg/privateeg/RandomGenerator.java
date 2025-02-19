@@ -1,4 +1,4 @@
-package com.desabisc.interfaceseg.privateeg;
+package com.desabisc.jdk9.interfaceseg.privateeg;
 
 import java.util.Random;
 

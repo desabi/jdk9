@@ -1,4 +1,4 @@
-package com.desabisc.interfaceseg.privatestaticeg;
+package com.desabisc.jdk9.interfaceseg.privatestaticeg;
 
 /**
  * <a href="https://www.baeldung.com/new-java-9">Source</a>

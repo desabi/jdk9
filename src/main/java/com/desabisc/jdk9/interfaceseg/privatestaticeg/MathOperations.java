@@ -1,4 +1,4 @@
-package com.desabisc.interfaceseg.privatestaticeg;
+package com.desabisc.jdk9.interfaceseg.privatestaticeg;
 
 /**
  * source: chatgpt.

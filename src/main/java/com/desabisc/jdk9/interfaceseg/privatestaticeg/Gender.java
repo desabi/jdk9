@@ -1,4 +1,4 @@
-package com.desabisc.interfaceseg.privatestaticeg;
+package com.desabisc.jdk9.interfaceseg.privatestaticeg;
 
 /**
  * Since the static methods of an interface can be called without creation of an implementing object,
