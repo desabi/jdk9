@@ -1,6 +1,6 @@
-package com.desabisc.jdk9.interfaceseg.privateeg;
+package com.desabisc.interfaceseg.privateeg;
 
-public class PrivateMethodB {
+public class DataProcessorMain {
     public static void main(String[] args) {
         DataProcessorImpl dataProcessor = new DataProcessorImpl();
         dataProcessor.processJson("{\"key\": \"value\"}");

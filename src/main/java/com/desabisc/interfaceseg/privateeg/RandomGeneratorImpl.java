@@ -1,4 +1,5 @@
-package com.desabisc.jdk9.interfaceseg.privateeg;
+package com.desabisc.interfaceseg.privateeg;
 
 public class RandomGeneratorImpl implements RandomGenerator {
+
 }

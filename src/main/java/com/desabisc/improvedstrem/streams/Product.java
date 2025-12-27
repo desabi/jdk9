@@ -1,4 +1,4 @@
-package com.desabisc.jdk9.streams;
+package com.desabisc.improvedstrem.streams;
 
 class Product {
     private String name;
