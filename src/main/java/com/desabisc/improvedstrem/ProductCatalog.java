@@ -21,9 +21,13 @@ public class ProductCatalog {
         );
 
         // Process products using takeWhile (discontinued products come last)
+        // takeWhile(Product::isActive) takes elements from the stream only while the condition is true.
+        // It stops as soon as it encounters the first element where the condition is false.
+        // So only "Laptop" is printed because takeWhile() stops at the first inactive product (Tablet).
+        // You should use filter() instead, which checks all elements in the stream:
         List<Product> activeProducts = products.stream()
             .takeWhile(Product::isActive)
-            .collect(Collectors.toList());
+            .toList();
 
         // TODO: only prints one element
         System.out.println("Active products: " + activeProducts);

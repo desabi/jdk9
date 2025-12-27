@@ -17,7 +17,7 @@ public class TakeWhile {
         // Process only transactions below 300 using takeWhile
         List<Integer> validTransactions = transactions.stream()
             .takeWhile(amount -> amount < 300)
-            .collect(Collectors.toList());
+            .toList();
 
         System.out.println("Valid transactions: " + validTransactions);
         /*

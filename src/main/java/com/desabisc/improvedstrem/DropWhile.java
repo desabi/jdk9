@@ -17,7 +17,7 @@ public class DropWhile {
         // Skip transactions below 300 using dropWhile
         List<Integer> largeTransactions = transactions.stream()
             .dropWhile(amount -> amount < 300)
-            .collect(Collectors.toList());
+                .toList();
 
         System.out.println("Large transactions: " + largeTransactions);
         /*
